@@ -13,7 +13,7 @@ const map = new mapboxgl.Map(mapOptions);
 map.on('load', () => {
     map.addSource('nta', {
         type: 'geojson',
-        data: 'nta.geojson'
+        data: './nta.geojson'
     });
 
     map.addLayer({
@@ -50,7 +50,7 @@ map.on('load', () => {
     //  parks layer
     map.addSource('parks', {
         type: 'geojson',
-        data: 'parks.geojson'
+        data: './parks.geojson'
     });
 
     map.addLayer({
