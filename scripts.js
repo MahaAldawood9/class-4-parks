@@ -43,7 +43,8 @@ map.on('load', () => {
         paint: {
             'line-color': 'gray',
             'line-width': 0.3
-        }
+        },
+        slot: 'middle'
     });
 
     //  parks layer
